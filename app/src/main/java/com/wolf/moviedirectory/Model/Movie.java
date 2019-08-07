@@ -12,10 +12,19 @@ public class Movie implements Serializable {
     private String status;
     private String imdbId;
     private String logo;
+    private String category;
+
+
 
     public Movie() {
     }
+    public String getCategory() {
+        return category;
+    }
 
+    public void setCategory(String category) {
+        this.category = category;
+    }
     public String getTitle() {
         return title;
     }
